@@ -28,12 +28,19 @@
 				height: 100%;
 				display: flex;
 				justify-content: center;
-				align-items: center;
+
 				line-height: 1.5;
 			}
 
 			main {
-				width: 20rem;
+				max-width: 25rem;
+				padding: 1rem 2rem;
+			}
+
+			@media all and (min-width: 544px) {
+				main {
+					padding-top: 8rem;
+				}
 			}
 
 			p,
